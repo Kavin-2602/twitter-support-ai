@@ -1,0 +1,63 @@
+pattern_description,true_intent,agent_intent,true_action,agent_action,examples
+"Action mismatch: True='ESCALATE', Agent='AUTO_HANDLE' (Count: 40)",Delivery Tracking,Delivery Tracking,ESCALATE,AUTO_HANDLE,"ID: amz_thread_0098 | Text: To the person or persons that stole that big, heavy Amazon box of my porch today: enjoy 200 13 gallon garbage bags!
+
+ID: amz_thread_0202 | Text: @115821 where’s my damn nutribullet
+
+ID: amz_thread_0176 | Text: The reliability of @115821 2 Day Prime is hitting an all time low. Not sure what is going on over there."
+"Action mismatch: True='AUTO_HANDLE', Agent='ESCALATE' (Count: 21)",Other,Other,AUTO_HANDLE,ESCALATE,"ID: amz_thread_0177 | Text: @115850 I mean I don't have problem with most of the orders but the black dot moving with the green bar is quite irritating
+
+ID: amz_thread_0140 | Text: @AmazonHelp Thank you. Spoke with customer service who was very nice &amp; helpful &amp; put me straight through to a Competent logistics person who documented issue, researched my acct &amp; was going to contact delivery Svc directly to ensure procedures followed. Time will tell. Thank you.
+
+ID: amz_thread_0039 | Text: @AmazonHelp My package just got here. All good, thank you!"
+"Intent mismatch: True='Other', Agent='Delivery Tracking' | Action mismatch: True='ESCALATE', Agent='AUTO_HANDLE' (Count: 13)",Other,Delivery Tracking,ESCALATE,AUTO_HANDLE,"ID: amz_thread_0289 | Text: @AmazonHelp Yes, butvthey lied. Told me carrier and said they would contact and call me back. The never called. I hsdvto make 2 additional calls
+
+ID: amz_thread_0053 | Text: @AmazonHelp Just now, don't use Amazon much so didn't know the process if you don't receive an item
+
+ID: amz_thread_0017 | Text: @AmazonHelp Already started the return. UPS gets it from my doorstep tomorrow. Order 111-5014070-4118645"
+"Intent mismatch: True='Delivery Tracking', Agent='Other' (Count: 9)",Delivery Tracking,Other,ESCALATE,ESCALATE,"ID: amz_thread_0186 | Text: @115821 thanks for the new movies on Prime video. Something new to distract from pain during CRPS flare ups #TheWitches 🌙🎃
+
+ID: amz_thread_0286 | Text: @115821 STOP USING THE @118706 They are a useless government entity.
+
+ID: amz_thread_0261 | Text: @AmazonHelp Nobody has called till now, why are you sending fake replies"
+"Intent mismatch: True='Other', Agent='Delivery Tracking' (Count: 7)",Other,Delivery Tracking,AUTO_HANDLE,AUTO_HANDLE,"ID: amz_thread_0295 | Text: @115821 it’s not nice to upset a kid (my daughter) on Halloween waitin’ for her dress it was prime and extra paid and you guys failed her !
+
+ID: amz_thread_0111 | Text: @115821 the more I order from you guys, the more I'm going to stop being a customer....YOUR DRIVERS ARE USELESS. Once again they marked a package delivered when it clearly wasn't. I received one of two packages, yet they were both marked delivered. 3 times in 1 month! https://t.co/9UYVHPVWtE
+
+ID: amz_thread_0227 | Text: @AmazonHelp Talked w/ cust. serv. yesterday. Just sent an email from link. Would like a straight answer abt my order."
+"Intent mismatch: True='Other', Agent='Account Access' (Count: 5)",Other,Account Access,ESCALATE,ESCALATE,"ID: amz_thread_0036 | Text: @AmazonHelp if I add another adult to my Amazon household (with their own account) can they see my wishlists/photos/order history?
+
+ID: amz_thread_0179 | Text: @AmazonHelp I have checked there is no email from amazon, and amazon is in safe senders list.
+
+ID: amz_thread_0093 | Text: @AmazonHelp already tried help by mail and still problem persist, please close my account and don't want to be a customer anymore https://t.co/m2g5tP26fX"
+"Intent mismatch: True='Other', Agent='Account Access' | Action mismatch: True='AUTO_HANDLE', Agent='ESCALATE' (Count: 3)",Other,Account Access,AUTO_HANDLE,ESCALATE,"ID: amz_thread_0180 | Text: @AmazonHelp I have filled the details
+
+ID: amz_thread_0139 | Text: @AmazonHelp Or you can provide me with a direct dial number and I’ll call it now
+
+ID: amz_thread_0166 | Text: @AmazonHelp Incredible! I shouldn’t post my details here Coz it’s public. While you can’t access it being in Amazon! Are you kidding me ?"
+"Intent mismatch: True='Other', Agent='Damaged/Wrong Item' (Count: 3)",Other,Damaged/Wrong Item,ESCALATE,ESCALATE,"ID: amz_thread_0206 | Text: @115821 u just lost a prime member of many years. Not only did u mess up 3 consec orders, u refuse to make good on them.
+
+ID: amz_thread_0041 | Text: @AmazonHelp Never got the beta and now I’m being told I won’t get ANY of the other stuff. Including Last Jedi content and or bonus classes. Anything! :(
+
+ID: amz_thread_0188 | Text: @AmazonHelp I was on the phone for an hour; kids fire tablet not working , warranty is a lie and your agents are rude."
+"Intent mismatch: True='Refund Inquiry', Agent='Delivery Tracking' | Action mismatch: True='ESCALATE', Agent='AUTO_HANDLE' (Count: 3)",Refund Inquiry,Delivery Tracking,ESCALATE,AUTO_HANDLE,"ID: amz_thread_0020 | Text: @AmazonHelp delivery I paid for today,didn’t arrive.why not?i paid enough for it.where is it??I’m unhappy.refund the delivery charge
+
+ID: amz_thread_0162 | Text: Worst experience in shopping no product no refund , been 40 days. F&amp;@694 it @115821
+
+ID: amz_thread_0142 | Text: @AmazonHelp UPS supposed to pick up a return package yesterday and bring return label... never showed."
+"Intent mismatch: True='Delivery Tracking', Agent='Other' | Action mismatch: True='AUTO_HANDLE', Agent='ESCALATE' (Count: 2)",Delivery Tracking,Other,AUTO_HANDLE,ESCALATE,"ID: amz_thread_0077 | Text: @115830 Why do you say that an article is eligible for free delivery then offer nothing but standard option at £4.75?
+
+ID: amz_thread_0108 | Text: Amazon delivery guy refused to give the police his ID and suddenly started sounding like an attorney. Good grief"
+"Intent mismatch: True='Damaged/Wrong Item', Agent='Delivery Tracking' | Action mismatch: True='ESCALATE', Agent='AUTO_HANDLE' (Count: 2)",Damaged/Wrong Item,Delivery Tracking,ESCALATE,AUTO_HANDLE,"ID: amz_thread_0109 | Text: @AmazonHelp AMZL US Tracking ID TBA566517950000 it says delivered to mail room, I checked the mail and the front offce, the driver listed 1 package, in that one package was my XLR cables...I'm missing the controller.
+
+ID: amz_thread_0141 | Text: @115821 So for the 4th time the package I ordered was tossed onto my property instead of being left on my front porch. It was raining. Package wet. I’ve complained repeatedly to no avail. Since Amazon switched from USPS to local delivery Svc the SERVICE is terrible."
+"Intent mismatch: True='Delivery Tracking', Agent='Account Access' (Count: 1)",Delivery Tracking,Account Access,ESCALATE,ESCALATE,"ID: amz_thread_0178 | Text: @AmazonHelp Haven’t received any mail, can you please resend mail to __email__"
+"Intent mismatch: True='Damaged/Wrong Item', Agent='Refund Inquiry' (Count: 1)",Damaged/Wrong Item,Refund Inquiry,ESCALATE,ESCALATE,ID: amz_thread_0182 | Text: @AmazonHelp Was sent this item in 6x9 size. Trying to return &amp; UPS did not show up today. I'd keep item if I could get refund for price difference. https://t.co/G1a6por32Z
+"Intent mismatch: True='Damaged/Wrong Item', Agent='Other' (Count: 1)",Damaged/Wrong Item,Other,ESCALATE,ESCALATE,ID: amz_thread_0090 | Text: @115830 website impossible to navigate - all I want to do is email about a faulty item - 20 min going round in circles. Infuriating 😡😡😡
+"Intent mismatch: True='Delivery Tracking', Agent='Damaged/Wrong Item' (Count: 1)",Delivery Tracking,Damaged/Wrong Item,ESCALATE,ESCALATE,ID: amz_thread_0047 | Text: My Kindle not working properly is breaking my heart! 😩💔
+"Intent mismatch: True='Order Cancellation', Agent='Other' (Count: 1)",Order Cancellation,Other,ESCALATE,ESCALATE,ID: amz_thread_0228 | Text: @115821 @AmazonHelp I'm so frustrated w/how things keep changing. Making it hard on POOR people!!! Free isn't free anymore.
+"Action mismatch: True='ESCALATE', Agent='AUTO_HANDLE' (Count: 1)",Order Cancellation,Order Cancellation,ESCALATE,AUTO_HANDLE,ID: amz_thread_0280 | Text: @AmazonHelp I have asked the customer care exec on phone to cancel the order. Don't want to waste any more of my time on this.
+"Intent mismatch: True='Order Cancellation', Agent='Other' | Action mismatch: True='AUTO_HANDLE', Agent='ESCALATE' (Count: 1)",Order Cancellation,Other,AUTO_HANDLE,ESCALATE,ID: amz_thread_0127 | Text: @AmazonHelp Trying to place an order this happened before and deleting and rentering my address fixed it but now it's across multiple prime accounts to the same address
+"Intent mismatch: True='Other', Agent='Damaged/Wrong Item' | Action mismatch: True='AUTO_HANDLE', Agent='ESCALATE' (Count: 1)",Other,Damaged/Wrong Item,AUTO_HANDLE,ESCALATE,ID: amz_thread_0174 | Text: @AmazonHelp I already chatted with help and am still not convinced i'll get the right item because clearly the warehouse workers can't read.
+"Intent mismatch: True='Other', Agent='Refund Inquiry' | Action mismatch: True='AUTO_HANDLE', Agent='ESCALATE' (Count: 1)",Other,Refund Inquiry,AUTO_HANDLE,ESCALATE,ID: amz_thread_0151 | Text: @AmazonHelp hi I cancelled an item today but the money has not shown back up in my bank yet can you tell me how long it takes?
+"Intent mismatch: True='Refund Inquiry', Agent='Order Cancellation' | Action mismatch: True='ESCALATE', Agent='AUTO_HANDLE' (Count: 1)",Refund Inquiry,Order Cancellation,ESCALATE,AUTO_HANDLE,ID: amz_thread_0029 | Text: @AmazonHelp but I can’t find the options to cancel or re-order?
+"Intent mismatch: True='Refund Inquiry', Agent='Other' (Count: 1)",Refund Inquiry,Other,ESCALATE,ESCALATE,ID: amz_thread_0250 | Text: @AmazonHelp How do I disable notifications indicated by the bell icon in upper left corner of iOS Kindle app?

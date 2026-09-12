@@ -1,0 +1,4 @@
+System,Intent Accuracy,Intent F1 (Macro),Action Accuracy
+Trivial,0.4472,0.103,0.7839
+Simple,0.5829,0.5424,0.6683
+Agent,0.7136,0.7205,0.5528
